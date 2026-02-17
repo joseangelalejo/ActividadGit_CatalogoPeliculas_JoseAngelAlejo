@@ -1,3 +1,5 @@
+#addBtn { background: #c0392b; }     /* rojo */
+#deleteBtn { background: #1f6feb; }  /* azul */
 * {
     box-sizing: border-box;
 }
