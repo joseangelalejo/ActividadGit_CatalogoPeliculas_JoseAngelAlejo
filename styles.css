@@ -1,5 +1,23 @@
-#addBtn { background: #c0392b; }     /* rojo */
-#deleteBtn { background: #1f6feb; }  /* azul */
+/* Añadido para catálogo completo*/
+.btn {
+    font-weight: 700;
+    border-radius: 14px;
+}
+
+.small {
+    font-weight: 700;
+}
+
+#addBtn {
+    background: #c0392b;
+}
+
+/* rojo */
+#deleteBtn {
+    background: #1f6feb;
+}
+
+/* azul */
 * {
     box-sizing: border-box;
 }
