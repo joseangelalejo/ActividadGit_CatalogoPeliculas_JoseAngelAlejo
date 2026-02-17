@@ -11,14 +11,14 @@ let movies = [];
 let nextId = 1;
 
 function renderMovies() {
-    movieList.innerHTML = "";
+  movieList.innerHTML = "";
 
-    for (const m of movies) {
-        const li = document.createElement("li");
-        li.className = "item";
-        li.dataset.id = String(m.id);
+  for (const m of movies) {
+    const li = document.createElement("li");
+    li.className = "item";
+    li.dataset.id = String(m.id);
 
-        li.innerHTML = `
+    li.innerHTML = `
       <div>
         <strong>${m.title}</strong>
         <span class="badge">${m.year}</span>
@@ -29,8 +29,8 @@ function renderMovies() {
       </div>
     `;
 
-        movieList.appendChild(li);
-    }
+    movieList.appendChild(li);
+  }
 }
 
 
